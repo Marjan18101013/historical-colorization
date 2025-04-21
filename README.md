@@ -7,6 +7,8 @@ This project implements a deep learning-based approach to colorize historical bl
 
 ## Model Overview
 
+![Alt Text](https://github.com/Marjan18101013/historical-colorization/blob/main/Temp/Model_architecture.jpg?raw=true)
+
 The model follows an **autoencoder-style architecture**:
 - **Encoder**: Extracts low-level spatial features using stacked Conv2D layers.
 - **Fusion Layer**: Combines encoder features with high-level semantic features from a pre-trained **InceptionResNetV2** model.
