@@ -7,7 +7,8 @@ This project implements a deep learning-based approach to colorize historical bl
 
 ## Model Overview
 
-![Alt Text](https://github.com/Marjan18101013/historical-colorization/blob/main/Temp/Model_architecture.jpg?raw=true)
+![Alt Text](https://github.com/Marjan18101013/historical-colorization/blob/main/Temp/Model_architecture.jpg?raw=true)  
+Figure 1: Model Architecture
 
 The model follows an **autoencoder-style architecture**:
 - **Encoder**: Extracts low-level spatial features using stacked Conv2D layers.
@@ -76,6 +77,14 @@ The model is stored in TensorFlow.js format in the `model/` folder, including:
 ## Results
 
 Colorized outputs show strong visual realism, particularly on portraits, objects, and natural scenes. Some limitations remain due to dataset size and variation.
+
+![Alt Text](https://github.com/Marjan18101013/historical-colorization/blob/main/result/thesis_model_training_result.png?raw=true)  
+Figure 2: Training Result Graph
+
+![Alt Text](https://github.com/Marjan18101013/historical-colorization/blob/main/result/thesis_model_results.png?raw=true)  
+Figure 3: Comparative Visualization of Grayscale Inputs and Colorized Outputs
+
+
 
 ---
 
