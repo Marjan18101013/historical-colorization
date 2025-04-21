@@ -1,0 +1,15 @@
+# Core Deep Learning Frameworks
+tensorflow==2.8.0
+keras==2.8.0
+
+# Data Handling and Image Processing
+numpy==1.21.6
+scikit-image==0.19.3
+matplotlib==3.5.1
+
+# Jupyter Notebooks (for working in Colab or locally)
+notebook
+ipython
+
+# Optional: For saving/loading models in TF.js or conversion
+tensorflowjs==3.19.0
